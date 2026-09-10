@@ -1,0 +1,17 @@
+node_modules
+dist
+dist-ssr
+*.local
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sw?
+
+# Raw root media duplicates (already organized in public/assets)
+/*.mp4
+/*.jpeg
+/*.jpg
