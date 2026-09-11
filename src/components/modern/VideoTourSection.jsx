@@ -68,7 +68,7 @@ export default function VideoTourSection() {
   };
 
   return (
-    <section id="tour" className="py-20 sm:py-28 bg-[#fdfbf7]">
+    <section id="tour" className="py-20 sm:py-28 bg-[#f5ede2]/60 border-t border-[#e5d9ca]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}

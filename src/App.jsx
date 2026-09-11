@@ -72,28 +72,28 @@ export default function App() {
         {/* Verified Distances & Metrics Ribbon */}
         <StatsRibbon />
 
-        {/* Natural Orchard Living: Freedom to Create Your Space Your Way */}
-        <AboutSection onBookVisitClick={handleBookVisitClick} />
-
-        {/* Verified Project Infrastructure Highlights */}
-        <HighlightsSection />
-
-        {/* Residential Convertable Plot Sizes & Configurations */}
-        <FarmExperienceSection onBookVisitClick={handleBookVisitClick} />
-
-        {/* 3D Walkthrough Player & Aerial Drone Reels */}
-        <VideoTourSection />
-
-        {/* Curated Community Amenities */}
-        <AmenitiesSection onOpenImageModal={handleOpenLightbox} />
-
-        {/* Strategic Location & Connectivity */}
-        <ConnectivitySection onOpenImageModal={handleOpenLightbox} />
-
-        {/* Real On-Ground Site Photography */}
+        {/* 01. IMAGES SECTION: Real On-Ground Site Photography & Temple Gallery */}
         <PhotoGallery onOpenImageModal={handleOpenLightbox} />
 
-        {/* Schedule VIP Site Visit & Directions */}
+        {/* 02. VIDEO SECTION: 3D Walkthrough Player & Aerial Drone Reels */}
+        <VideoTourSection />
+
+        {/* 03. Residential Convertable Plot Sizes & Configurations */}
+        <FarmExperienceSection onBookVisitClick={handleBookVisitClick} />
+
+        {/* 04. Natural Orchard Living: Freedom to Create Your Space Your Way */}
+        <AboutSection onBookVisitClick={handleBookVisitClick} />
+
+        {/* 05. Verified Project Infrastructure Highlights */}
+        <HighlightsSection />
+
+        {/* 06. Curated Community Amenities */}
+        <AmenitiesSection onOpenImageModal={handleOpenLightbox} />
+
+        {/* 07. Strategic Location & Connectivity */}
+        <ConnectivitySection onOpenImageModal={handleOpenLightbox} />
+
+        {/* 08. Schedule VIP Site Visit & Directions */}
         <SiteVisitSection />
       </main>
 

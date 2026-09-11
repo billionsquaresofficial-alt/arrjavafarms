@@ -48,13 +48,12 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs text-stone-300">
               <li><a href="#overview" className="hover:text-emerald-300 transition">Overview</a></li>
-              <li><a href="#about" className="hover:text-emerald-300 transition">Mango Orchards</a></li>
-              <li><a href="#highlights" className="hover:text-emerald-300 transition">Highlights</a></li>
+              <li><a href="#gallery" className="hover:text-emerald-300 transition">Site Photos</a></li>
+              <li><a href="#tour" className="hover:text-emerald-300 transition">3D Video Tour</a></li>
               <li><a href="#plots" className="hover:text-emerald-300 transition">Plot Sizes</a></li>
+              <li><a href="#highlights" className="hover:text-emerald-300 transition">Highlights</a></li>
               <li><a href="#amenities" className="hover:text-emerald-300 transition">Amenities</a></li>
               <li><a href="#location" className="hover:text-emerald-300 transition">Connectivity</a></li>
-              <li><a href="#gallery" className="hover:text-emerald-300 transition">Site Photos</a></li>
-              <li><a href="#tour" className="hover:text-emerald-300 transition">3D & Drone Tour</a></li>
             </ul>
           </div>
 

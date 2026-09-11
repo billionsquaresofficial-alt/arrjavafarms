@@ -28,13 +28,12 @@ export default function Navbar({ onBookVisitClick }) {
   // Clean, concise menu items with whitespace-nowrap that will NEVER wrap into two lines
   const navLinks = [
     { label: 'Overview', href: '#overview' },
-    { label: 'Orchards', href: '#about' },
-    { label: 'Highlights', href: '#highlights' },
+    { label: 'Photos', href: '#gallery' },
+    { label: '3D Video Tour', href: '#tour' },
     { label: 'Plot Sizes', href: '#plots' },
+    { label: 'Highlights', href: '#highlights' },
     { label: 'Amenities', href: '#amenities' },
     { label: 'Location', href: '#location' },
-    { label: 'Photos', href: '#gallery' },
-    { label: '3D Tour', href: '#tour' },
   ];
 
   return (
