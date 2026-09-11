@@ -9,7 +9,7 @@ export default function SiteVisitSection() {
     phone: '',
     email: '',
     date: '',
-    plotSize: '150 Sq. Yds',
+    plotSize: '151.25 Sq. Yds',
     notes: '',
   });
 
@@ -163,7 +163,7 @@ export default function SiteVisitSection() {
                   </div>
                 </div>
 
-                {/* Standard Plot Selection: 150 Sq Yds Only */}
+                {/* Standard Plot Selection: 151.25 Sq Yds Only */}
                 <div>
                   <label className="block text-xs font-bold text-slate-700 mb-1.5">
                     Plot Size Available
@@ -174,8 +174,8 @@ export default function SiteVisitSection() {
                         ✓
                       </div>
                       <div>
-                        <span className="text-xs font-extrabold text-emerald-950">150 Sq. Yds</span>
-                        <span className="text-xs text-emerald-800 ml-1.5">(Standard Layout Plot • 1,350 Sq. Ft)</span>
+                        <span className="text-xs font-extrabold text-emerald-950">151.25 Sq. Yds</span>
+                        <span className="text-xs text-emerald-800 ml-1.5">(Standard Layout Plot • 1,361.25 Sq. Ft)</span>
                       </div>
                     </div>
                     <span className="text-[10px] font-bold uppercase tracking-wider bg-white text-emerald-900 px-2 py-0.5 rounded border border-emerald-300">

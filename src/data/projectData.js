@@ -243,7 +243,7 @@ export const GALLERY_ITEMS = [
     type: "image",
     src: "/assets/layouts/layout-master-comprehensive-1.png",
     pdfSrc: "/assets/layouts/arrjava-master-layout-comprehensive.pdf",
-    caption: "Official comprehensive master development layout plan featuring the 40'/30'/28' road grid, 6,631.07 Sq.Yd central open space, standard 151.5 & 181.5 sq.yd plots, estate farm parcels, and sold-out phase demarcations."
+    caption: "Official comprehensive master development layout plan featuring the 40'/30'/28' road grid, 6,631.07 Sq.Yd central open space, standard 151.25 sq.yd plots, estate farm parcels, and sold-out phase demarcations."
   },
   {
     id: "layout-location-plots",
@@ -252,7 +252,7 @@ export const GALLERY_ITEMS = [
     type: "image",
     src: "/assets/layouts/layout-location-plots-1.png",
     pdfSrc: "/assets/layouts/arrjava-location-plots-map.pdf",
-    caption: "Detailed plot subdivision and location map showing standard 107 & 151.5 Sq.Yd plots alongside large 3G, 4G, 5G, 7G, 10G & 11G estate farm plots with 40' and 30' wide roads."
+    caption: "Detailed plot subdivision and location map showing standard 151.25 Sq.Yd plots alongside estate farm plots with 40' and 30' wide roads."
   },
   {
     id: "render-entrance",

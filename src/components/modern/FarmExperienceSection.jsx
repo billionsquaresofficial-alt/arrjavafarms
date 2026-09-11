@@ -6,13 +6,13 @@ export default function FarmExperienceSection({ onBookVisitClick }) {
   const plotSpecs = [
     {
       title: "Standard Plot Dimension",
-      value: "150 Sq. Yds",
-      desc: "Approx. 1,350 Sq. Ft. The ideal footprint for a private country retreat, lawn, and mango grove.",
+      value: "151.25 Sq. Yds",
+      desc: "Approx. 1,361.25 Sq. Ft. The ideal footprint for a private country retreat, lawn, and mango grove.",
     },
     {
       title: "Demarcation & Curbing",
       value: "Painted Curb Stones",
-      desc: "Every 150 Sq. Yd plot is clearly pegged and framed with yellow-black painted boundary curbings.",
+      desc: "Every 151.25 Sq. Yd plot is clearly pegged and framed with yellow-black painted boundary curbings.",
     },
     {
       title: "Dual Water Security",
@@ -47,14 +47,14 @@ export default function FarmExperienceSection({ onBookVisitClick }) {
             <span>Standardized Plotted Venture</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-slate-900 tracking-tight">
-            Exclusively 150 Sq. Yds Plots
+            Exclusively 151.25 Sq. Yds Plots
           </h2>
           <p className="text-base sm:text-lg text-slate-600 mt-4 leading-relaxed font-sans">
-            Arrjava Farms offers standardized <strong className="text-emerald-900 font-bold">150 Sq. Yds (approx. 1,350 Sq. Ft)</strong> residential convertable plots nestled within mature fruit-bearing mango orchards. Each plot is fully demarcated, infrastructure-ready, and legally approved for immediate construction.
+            Arrjava Farms offers standardized <strong className="text-emerald-900 font-bold">151.25 Sq. Yds (approx. 1,361.25 Sq. Ft)</strong> residential convertable plots nestled within mature fruit-bearing mango orchards. Each plot is fully demarcated, infrastructure-ready, and legally approved for immediate construction.
           </p>
         </div>
 
-        {/* Heroic 150 Sq Yd Showcase Card */}
+        {/* Heroic 151.25 Sq Yd Showcase Card */}
         <div className="bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-12">
             
@@ -72,10 +72,10 @@ export default function FarmExperienceSection({ onBookVisitClick }) {
 
                 <div className="space-y-2">
                   <h3 className="text-3xl sm:text-4xl font-serif font-bold text-slate-900">
-                    150 Sq. Yds Residential Convertable Plot
+                    151.25 Sq. Yds Residential Convertable Plot
                   </h3>
                   <p className="text-2xl font-bold text-emerald-800 font-serif">
-                    1,350 Sq. Ft • Standard Layout Dimension
+                    1,361.25 Sq. Ft • Standard Layout Dimension
                   </p>
                   <p className="text-sm text-slate-600 leading-relaxed pt-2">
                     Designed to give families the perfect balance of green sanctuary, private garden space, and manageable home footprint. Located near the Consecrated Lord Ganesha Temple and scenic avenue plantation roads.
@@ -103,7 +103,7 @@ export default function FarmExperienceSection({ onBookVisitClick }) {
                   onClick={onBookVisitClick}
                   className="bg-emerald-800 hover:bg-emerald-900 text-white font-bold text-sm px-8 py-4 rounded-xl shadow-md hover:shadow-lg transition cursor-pointer flex items-center gap-2"
                 >
-                  <span>Book 150 Sq. Yd Site Visit</span>
+                  <span>Book 151.25 Sq. Yd Site Visit</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
                 <a
@@ -133,7 +133,7 @@ export default function FarmExperienceSection({ onBookVisitClick }) {
                 <div className="rounded-2xl overflow-hidden border-2 border-emerald-700/60 shadow-lg relative h-60">
                   <img
                     src="/assets/photos/open-plots-boundary.jpg"
-                    alt="Levelled 150 Sq. Yds Open Plots"
+                    alt="Levelled 151.25 Sq. Yds Open Plots"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
@@ -163,12 +163,12 @@ export default function FarmExperienceSection({ onBookVisitClick }) {
 
               <div className="relative z-10 pt-6 mt-6 border-t border-emerald-800/60">
                 <a
-                  href="https://wa.me/918125125055?text=Hi%2C+I+am+interested+in+the+150+Sq+Yds+plots+at+Arrjava+Farms."
+                  href="https://wa.me/918125125055?text=Hi%2C+I+am+interested+in+the+151.25+Sq+Yds+plots+at+Arrjava+Farms."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs py-3.5 rounded-xl transition text-center block shadow-md"
                 >
-                  WhatsApp Instant 150 Sq. Yd Price Chart
+                  WhatsApp Instant 151.25 Sq. Yd Price Chart
                 </a>
               </div>
             </div>

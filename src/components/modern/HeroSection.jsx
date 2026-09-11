@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Play, Download, ShieldCheck, CheckCircle2, ArrowRight, Sparkles, MapPin, Droplets, Trees, Volume2, Phone } from 'lucide-react';
+import { Calendar, Play, Download, ShieldCheck, CheckCircle2, ArrowRight, Sparkles, MapPin, Droplets, Trees, Phone } from 'lucide-react';
 import { PROJECT_INFO } from '../../data/projectData';
 
 export default function HeroSection({ onBookVisitClick, onOpenVideoTour }) {
@@ -149,10 +149,10 @@ export default function HeroSection({ onBookVisitClick, onOpenVideoTour }) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                 
-                {/* Top Pill: Birdsong Active */}
+                {/* Top Pill: Mature Mango Orchards */}
                 <div className="absolute top-3 right-3 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-full border border-white/20 flex items-center gap-1.5 text-white">
-                  <Volume2 className="w-3 h-3 text-amber-300 animate-pulse" />
-                  <span className="text-[10px] font-bold">Birdsong BGM</span>
+                  <Trees className="w-3 h-3 text-amber-300" />
+                  <span className="text-[10px] font-bold">Mature Orchards</span>
                 </div>
 
                 <div className="absolute bottom-3 left-4 right-4 text-white">

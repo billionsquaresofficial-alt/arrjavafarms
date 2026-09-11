@@ -38,7 +38,7 @@ export default function AboutSection({ onBookVisitClick }) {
             Create Your Private Nature Sanctuary <span className="text-emerald-800 italic">Your Way</span>
           </h2>
           <p className="text-base sm:text-lg text-slate-600 mt-4 leading-relaxed font-sans">
-            Arrjava Farms gives you the freedom to own a piece of peaceful nature without sacrificing urban convenience. Whether you want a sunny weekend country retreat, a multi-generational family residence, or a strategic land holding, these 150 Sq. Yds residential convertable plots offer complete flexibility.
+            Arrjava Farms gives you the freedom to own a piece of peaceful nature without sacrificing urban convenience. Whether you want a sunny weekend country retreat, a multi-generational family residence, or a strategic land holding, these 151.25 Sq. Yds residential convertable plots offer complete flexibility.
           </p>
         </div>
 
@@ -76,14 +76,14 @@ export default function AboutSection({ onBookVisitClick }) {
                   Ready for Immediate House Construction
                 </p>
                 <p className="text-xs text-emerald-100/80 mt-1">
-                  Clear title demarcated 150 Sq. Yds residential plots with dual water supply (Bore & Manjeera).
+                  Clear title demarcated 151.25 Sq. Yds residential plots with dual water supply (Bore & Manjeera).
                 </p>
               </div>
               <button
                 onClick={onBookVisitClick}
                 className="shrink-0 bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-bold px-6 py-3 rounded-xl transition shadow-xs cursor-pointer"
               >
-                Inquire 150 Sq. Yd Plots
+                Inquire 151.25 Sq. Yd Plots
               </button>
             </div>
           </div>

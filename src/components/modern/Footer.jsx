@@ -50,7 +50,7 @@ export default function Footer() {
               <li><a href="#overview" className="hover:text-emerald-300 transition">Overview</a></li>
               <li><a href="#gallery" className="hover:text-emerald-300 transition">Site Photos</a></li>
               <li><a href="#tour" className="hover:text-emerald-300 transition">3D Video Tour</a></li>
-              <li><a href="#plots" className="hover:text-emerald-300 transition">150 Sq. Yd Plots</a></li>
+              <li><a href="#plots" className="hover:text-emerald-300 transition">151.25 Sq. Yd Plots</a></li>
               <li><a href="#highlights" className="hover:text-emerald-300 transition">Highlights</a></li>
               <li><a href="#amenities" className="hover:text-emerald-300 transition">Amenities</a></li>
               <li><a href="#location" className="hover:text-emerald-300 transition">Connectivity</a></li>

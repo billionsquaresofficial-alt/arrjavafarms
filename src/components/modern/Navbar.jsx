@@ -30,7 +30,7 @@ export default function Navbar({ onBookVisitClick }) {
     { label: 'Overview', href: '#overview' },
     { label: 'Photos', href: '#gallery' },
     { label: '3D Video Tour', href: '#tour' },
-    { label: '150 Sq. Yd Plots', href: '#plots' },
+    { label: '151.25 Sq. Yd Plots', href: '#plots' },
     { label: 'Highlights', href: '#highlights' },
     { label: 'Amenities', href: '#amenities' },
     { label: 'Location', href: '#location' },
