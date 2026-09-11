@@ -37,8 +37,8 @@ export default function StatsRibbon() {
 
   return (
     <section className="relative -mt-8 z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="bg-white rounded-[2rem] shadow-xl border border-[#e5dcce] p-6 sm:p-8">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 divide-y lg:divide-y-0 lg:divide-x divide-[#eee7db]">
+      <div className="bg-white rounded-2xl shadow-xl shadow-slate-200/60 border border-slate-200 p-6 sm:p-7">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 divide-y lg:divide-y-0 lg:divide-x divide-slate-100">
           {stats.map((item, idx) => {
             const Icon = item.icon;
             return (
@@ -48,17 +48,17 @@ export default function StatsRibbon() {
                   idx > 0 ? 'pt-4 lg:pt-0 lg:pl-6' : ''
                 }`}
               >
-                <div className="w-12 h-12 rounded-2xl bg-[#f5ede2] border border-[#e2d5c3] flex items-center justify-center shrink-0">
-                  <Icon className="w-5 h-5 text-[#6d351a]" />
+                <div className="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-200/80 flex items-center justify-center shrink-0">
+                  <Icon className="w-5 h-5 text-emerald-800" />
                 </div>
                 <div>
-                  <div className="text-xl sm:text-2xl font-extrabold font-serif text-[#162a1f] leading-tight">
+                  <div className="text-xl sm:text-2xl font-extrabold font-serif text-slate-900 leading-tight">
                     {item.metric}
                   </div>
-                  <div className="text-xs font-bold text-stone-800 leading-snug">
+                  <div className="text-xs font-bold text-slate-800 leading-snug">
                     {item.label}
                   </div>
-                  <div className="text-[11px] text-stone-500 hidden sm:block">
+                  <div className="text-[11px] text-slate-500 hidden sm:block">
                     {item.sublabel}
                   </div>
                 </div>

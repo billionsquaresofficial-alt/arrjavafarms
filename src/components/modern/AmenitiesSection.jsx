@@ -42,18 +42,18 @@ export default function AmenitiesSection({ onOpenImageModal }) {
   ];
 
   return (
-    <section id="amenities" className="py-20 sm:py-28 bg-[#f5ede2]/60 border-t border-[#e3d7c5]">
+    <section id="amenities" className="py-20 sm:py-28 bg-white border-t border-slate-200/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs uppercase tracking-widest font-extrabold text-[#6d351a] bg-[#f7efe5] px-4 py-1.5 rounded-full border border-[#debfa5]">
+          <span className="text-xs uppercase tracking-widest font-extrabold text-emerald-900 bg-emerald-100 px-4 py-1.5 rounded-full border border-emerald-200">
             Lifestyle & Leisure
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-[#16271e] mt-4 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-slate-900 mt-4 tracking-tight">
             Curated Community Amenities
           </h2>
-          <p className="text-base text-stone-600 mt-3 leading-relaxed font-sans">
+          <p className="text-base text-slate-600 mt-3 leading-relaxed font-sans">
             Thoughtfully planned to elevate your weekend countryside experience with recreation, spiritual calm, and peaceful family time.
           </p>
         </div>
@@ -63,11 +63,11 @@ export default function AmenitiesSection({ onOpenImageModal }) {
           {amenities.map((item, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-[2rem] overflow-hidden border border-[#e5dcd0] shadow-xs hover:shadow-xl transition-all duration-300 group flex flex-col justify-between"
+              className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col justify-between"
             >
               {/* Card Image */}
               <div
-                className="relative h-60 overflow-hidden cursor-pointer bg-stone-100"
+                className="relative h-60 overflow-hidden cursor-pointer bg-slate-100"
                 onClick={() => onOpenImageModal(item.image, item.title)}
               >
                 <img
@@ -78,7 +78,7 @@ export default function AmenitiesSection({ onOpenImageModal }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                 
                 {/* Category Badge */}
-                <div className="absolute top-3.5 left-3.5 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-[#6d351a] border border-[#e2d5c3] shadow-xs">
+                <div className="absolute top-3.5 left-3.5 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-emerald-900 border border-slate-200 shadow-xs">
                   {item.category}
                 </div>
 
@@ -91,10 +91,10 @@ export default function AmenitiesSection({ onOpenImageModal }) {
               {/* Card Content */}
               <div className="p-6 flex-1 flex flex-col justify-between">
                 <div>
-                  <h3 className="font-serif text-xl font-bold text-[#16271e] group-hover:text-[#183d2a] transition-colors">
+                  <h3 className="font-serif text-xl font-bold text-slate-900 group-hover:text-emerald-800 transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-stone-600 mt-2 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
                     {item.desc}
                   </p>
                 </div>

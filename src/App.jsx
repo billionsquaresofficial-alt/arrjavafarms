@@ -78,7 +78,7 @@ export default function App() {
         {/* 02. VIDEO SECTION: 3D Walkthrough Player & Aerial Drone Reels */}
         <VideoTourSection />
 
-        {/* 03. Residential Convertable Plot Sizes & Configurations */}
+        {/* 03. Exclusive 150 Sq. Yds Residential Convertable Plots */}
         <FarmExperienceSection onBookVisitClick={handleBookVisitClick} />
 
         {/* 04. Natural Orchard Living: Freedom to Create Your Space Your Way */}
@@ -111,7 +111,7 @@ export default function App() {
       {/* Floating Quick Action Button (WhatsApp) */}
       <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex flex-col items-end gap-2.5">
         <a
-          href="https://wa.me/918125125055?text=Hi%2C+I+am+interested+in+Arrjava+Farms+Residential+Convertable+Plots."
+          href="https://wa.me/918125125055?text=Hi%2C+I+am+interested+in+Arrjava+Farms+150+Sq+Yds+Plots."
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 bg-emerald-800 hover:bg-emerald-900 text-white font-bold text-xs p-3 sm:py-3.5 sm:px-4.5 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border border-emerald-600/40"

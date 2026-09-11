@@ -26,19 +26,19 @@ export default function AboutSection({ onBookVisitClick }) {
   ];
 
   return (
-    <section id="about" className="py-20 sm:py-28 bg-[#fdfbf7]">
+    <section id="about" className="py-20 sm:py-28 bg-white border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="max-w-3xl mb-16">
-          <span className="text-xs uppercase tracking-widest font-extrabold text-[#6d351a] bg-[#f5ede2] px-3.5 py-1 rounded-full border border-[#debfa5]">
+          <span className="text-xs uppercase tracking-widest font-extrabold text-emerald-900 bg-emerald-100 px-3.5 py-1 rounded-full border border-emerald-200">
             Natural Orchard Living
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-[#16271e] mt-4 tracking-tight">
-            Create Your Private Nature Sanctuary <span className="text-[#1a5135] italic">Your Way</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-slate-900 mt-4 tracking-tight">
+            Create Your Private Nature Sanctuary <span className="text-emerald-800 italic">Your Way</span>
           </h2>
-          <p className="text-base sm:text-lg text-stone-600 mt-4 leading-relaxed font-sans">
-            Arrjava Farms gives you the freedom to own a piece of peaceful nature without sacrificing urban convenience. Whether you want a sunny weekend country retreat, a multi-generational family residence, or a strategic land holding, these residential convertable open plots offer complete flexibility.
+          <p className="text-base sm:text-lg text-slate-600 mt-4 leading-relaxed font-sans">
+            Arrjava Farms gives you the freedom to own a piece of peaceful nature without sacrificing urban convenience. Whether you want a sunny weekend country retreat, a multi-generational family residence, or a strategic land holding, these 150 Sq. Yds residential convertable plots offer complete flexibility.
           </p>
         </div>
 
@@ -53,15 +53,15 @@ export default function AboutSection({ onBookVisitClick }) {
                 return (
                   <div
                     key={idx}
-                    className="bg-[#faf6ef] p-6 rounded-[1.75rem] border border-[#e4d9c8] shadow-xs hover:border-[#1a5135] hover:shadow-md transition-all group"
+                    className="bg-slate-50 p-6 rounded-2xl border border-slate-200/80 shadow-xs hover:border-emerald-800 hover:shadow-md transition-all group"
                   >
-                    <div className="w-11 h-11 rounded-2xl bg-white border border-[#decbb7] text-[#6d351a] flex items-center justify-center mb-4 group-hover:bg-[#1a5135] group-hover:text-white transition-colors">
+                    <div className="w-11 h-11 rounded-xl bg-white border border-slate-200 text-emerald-800 flex items-center justify-center mb-4 group-hover:bg-emerald-800 group-hover:text-white transition-colors">
                       <Icon className="w-5 h-5" />
                     </div>
-                    <h3 className="font-serif text-base sm:text-lg font-bold text-[#162a1f]">
+                    <h3 className="font-serif text-base sm:text-lg font-bold text-slate-900">
                       {pillar.title}
                     </h3>
-                    <p className="text-xs sm:text-sm text-stone-600 mt-2 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
                       {pillar.desc}
                     </p>
                   </div>
@@ -69,21 +69,21 @@ export default function AboutSection({ onBookVisitClick }) {
               })}
             </div>
 
-            {/* Farm Banner */}
-            <div className="bg-[#193a29] text-amber-50 p-6 sm:p-7 rounded-[2rem] shadow-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border border-[#23583c]">
+            {/* Banner */}
+            <div className="bg-emerald-950 text-white p-6 sm:p-7 rounded-2xl shadow-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border border-emerald-800">
               <div>
-                <p className="text-sm font-bold text-amber-200">
+                <p className="text-sm font-bold text-amber-300">
                   Ready for Immediate House Construction
                 </p>
-                <p className="text-xs text-stone-300 mt-1">
-                  Clear title demarcated residential conversion open plots with dual water supply (Bore & Manjeera).
+                <p className="text-xs text-emerald-100/80 mt-1">
+                  Clear title demarcated 150 Sq. Yds residential plots with dual water supply (Bore & Manjeera).
                 </p>
               </div>
               <button
                 onClick={onBookVisitClick}
-                className="shrink-0 bg-amber-400 hover:bg-amber-300 text-[#193a29] text-xs font-bold px-5 py-3 rounded-full transition shadow-xs cursor-pointer"
+                className="shrink-0 bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-bold px-6 py-3 rounded-xl transition shadow-xs cursor-pointer"
               >
-                Inquire Plots
+                Inquire 150 Sq. Yd Plots
               </button>
             </div>
           </div>

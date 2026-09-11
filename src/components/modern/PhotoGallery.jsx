@@ -60,20 +60,20 @@ export default function PhotoGallery({ onOpenImageModal }) {
     : photos.filter(p => p.category === filter);
 
   return (
-    <section id="gallery" className="py-20 sm:py-28 bg-[#fdfbf7]">
+    <section id="gallery" className="py-20 sm:py-28 bg-white border-t border-slate-200/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div>
-            <span className="text-xs uppercase tracking-widest font-extrabold text-[#6d351a] bg-[#f7efe5] px-4 py-1.5 rounded-full border border-[#debfa5]">
+            <span className="text-xs uppercase tracking-widest font-extrabold text-emerald-900 bg-emerald-100 px-4 py-1.5 rounded-full border border-emerald-200">
               Real On-Ground Site Photography
             </span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-[#16271e] mt-4 tracking-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-slate-900 mt-4 tracking-tight">
               On-Site Photography
             </h2>
-            <p className="text-base text-stone-600 mt-2 font-sans max-w-xl">
-              Authentic, unedited photographs captured directly on-site showcasing real ground progress and natural surroundings.
+            <p className="text-base text-slate-600 mt-2 font-sans max-w-xl">
+              Authentic, unedited photographs captured directly on-site showcasing real ground progress, the Consecrated Lord Ganesha Temple, and mango orchards.
             </p>
           </div>
 
@@ -90,8 +90,8 @@ export default function PhotoGallery({ onOpenImageModal }) {
                 onClick={() => setFilter(tab.id)}
                 className={`text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-full transition-all cursor-pointer ${
                   filter === tab.id
-                    ? 'bg-[#183d2a] text-white shadow-md'
-                    : 'bg-white text-stone-700 hover:bg-[#f6ede1] border border-[#e2d6c6]'
+                    ? 'bg-emerald-900 text-white shadow-md'
+                    : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200'
                 }`}
               >
                 {tab.label}
@@ -105,7 +105,7 @@ export default function PhotoGallery({ onOpenImageModal }) {
           {filteredPhotos.map((item, idx) => (
             <div
               key={idx}
-              className={`rounded-[2rem] overflow-hidden shadow-xs hover:shadow-2xl transition-all duration-300 border-2 border-white relative group cursor-pointer bg-stone-100 h-64 sm:h-72 ${
+              className={`rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-slate-200 relative group cursor-pointer bg-slate-100 h-64 sm:h-72 ${
                 item.span.includes('col-span-2') ? 'md:col-span-2' : 'col-span-1'
               }`}
               onClick={() => onOpenImageModal(item.src, item.title)}

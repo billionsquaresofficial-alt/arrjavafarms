@@ -9,7 +9,7 @@ export default function SiteVisitSection() {
     phone: '',
     email: '',
     date: '',
-    plotSize: '400 – 600 Sq. Yds',
+    plotSize: '150 Sq. Yds',
     notes: '',
   });
 
@@ -163,26 +163,24 @@ export default function SiteVisitSection() {
                   </div>
                 </div>
 
-                {/* Plot Size Interest */}
+                {/* Standard Plot Selection: 150 Sq Yds Only */}
                 <div>
                   <label className="block text-xs font-bold text-slate-700 mb-1.5">
-                    Interested Plot Size
+                    Plot Size Available
                   </label>
-                  <div className="grid grid-cols-3 gap-2">
-                    {['200 – 300 Sq. Yds', '400 – 600 Sq. Yds', '800+ Sq. Yds'].map((size) => (
-                      <button
-                        type="button"
-                        key={size}
-                        onClick={() => setFormData({ ...formData, plotSize: size })}
-                        className={`text-xs font-bold py-2.5 px-2 rounded-xl border text-center transition cursor-pointer ${
-                          formData.plotSize === size
-                            ? 'bg-emerald-800 text-white border-emerald-800 shadow-xs'
-                            : 'bg-white text-slate-700 border-stone-300 hover:border-emerald-600'
-                        }`}
-                      >
-                        {size}
-                      </button>
-                    ))}
+                  <div className="bg-emerald-50 p-3 rounded-xl border border-emerald-300/80 flex items-center justify-between">
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-6 h-6 rounded-full bg-emerald-800 text-white flex items-center justify-center text-xs font-bold shrink-0">
+                        ✓
+                      </div>
+                      <div>
+                        <span className="text-xs font-extrabold text-emerald-950">150 Sq. Yds</span>
+                        <span className="text-xs text-emerald-800 ml-1.5">(Standard Layout Plot • 1,350 Sq. Ft)</span>
+                      </div>
+                    </div>
+                    <span className="text-[10px] font-bold uppercase tracking-wider bg-white text-emerald-900 px-2 py-0.5 rounded border border-emerald-300">
+                      Standard Unit
+                    </span>
                   </div>
                 </div>
 
