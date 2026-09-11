@@ -10,14 +10,14 @@ export default function AmenitiesSection({ onOpenImageModal }) {
       image: "/assets/cropped/amenity-swimming-pool.jpg",
     },
     {
-      title: "Farm Club House & Pavilion",
+      title: "Club House & Pavilion",
       category: "Community & Celebrations",
       desc: "Architectural clubhouse designed for community gatherings, birthday events, and weekend leisure.",
       image: "/assets/cropped/entrance-arch-render.png",
     },
     {
       title: "Weekend Guest Cottages",
-      category: "Overnight Farm Stays",
+      category: "Overnight Stays",
       desc: "Comfortable stay cottages for property owners to experience tranquil overnight stays amidst nature.",
       image: "/assets/photos/cottage-sunset.jpeg",
     },
@@ -48,10 +48,10 @@ export default function AmenitiesSection({ onOpenImageModal }) {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs uppercase tracking-widest font-extrabold text-[#6d351a] bg-[#f7efe5] px-4 py-1.5 rounded-full border border-[#debfa5]">
-            Farmland Lifestyle & Leisure
+            Lifestyle & Leisure
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-[#16271e] mt-4 tracking-tight">
-            Curated Farm Amenities
+            Curated Community Amenities
           </h2>
           <p className="text-base text-stone-600 mt-3 leading-relaxed font-sans">
             Thoughtfully planned to elevate your weekend countryside experience with recreation, spiritual calm, and peaceful family time.

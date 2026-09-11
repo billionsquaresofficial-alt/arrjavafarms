@@ -72,19 +72,19 @@ export default function App() {
         {/* Verified Distances & Metrics Ribbon */}
         <StatsRibbon />
 
-        {/* The Farmland Concept: Freedom to Create Your Space Your Way */}
+        {/* Natural Orchard Living: Freedom to Create Your Space Your Way */}
         <AboutSection onBookVisitClick={handleBookVisitClick} />
 
         {/* Verified Project Infrastructure Highlights */}
         <HighlightsSection />
 
-        {/* Farm Model Showcase: A Day on the Farm & Plot Size Options */}
+        {/* Residential Convertable Plot Sizes & Configurations */}
         <FarmExperienceSection onBookVisitClick={handleBookVisitClick} />
 
         {/* 3D Walkthrough Player & Aerial Drone Reels */}
         <VideoTourSection />
 
-        {/* Curated Farm Amenities */}
+        {/* Curated Community Amenities */}
         <AmenitiesSection onOpenImageModal={handleOpenLightbox} />
 
         {/* Strategic Location & Connectivity */}
@@ -93,7 +93,7 @@ export default function App() {
         {/* Real On-Ground Site Photography */}
         <PhotoGallery onOpenImageModal={handleOpenLightbox} />
 
-        {/* Schedule VIP Farm Visit & Directions */}
+        {/* Schedule VIP Site Visit & Directions */}
         <SiteVisitSection />
       </main>
 
@@ -111,7 +111,7 @@ export default function App() {
       {/* Floating Quick Action Button (WhatsApp) */}
       <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex flex-col items-end gap-2.5">
         <a
-          href="https://wa.me/918125125055?text=Hi%2C+I+am+interested+in+Arrjava+Farms+Managed+Plots."
+          href="https://wa.me/918125125055?text=Hi%2C+I+am+interested+in+Arrjava+Farms+Residential+Convertable+Plots."
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 bg-emerald-800 hover:bg-emerald-900 text-white font-bold text-xs p-3 sm:py-3.5 sm:px-4.5 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border border-emerald-600/40"

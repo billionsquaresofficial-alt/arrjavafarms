@@ -23,7 +23,7 @@ export default function HeroSection({ onBookVisitClick, onOpenVideoTour }) {
             />
             <div className="h-4 w-px bg-emerald-200" />
             <span className="text-xs font-extrabold uppercase tracking-widest text-emerald-900">
-              Residential Open Plots
+              Residential Convertable Plots
             </span>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function HeroSection({ onBookVisitClick, onOpenVideoTour }) {
             A Natural Sanctuary of <br className="hidden sm:block" />
             <span className="italic text-emerald-800 underline decoration-amber-400/60 underline-offset-8">
               Mango Groves
-            </span> & Open Farmland
+            </span> & Residential Convertable Plots
           </h1>
 
           <div className="flex items-center justify-center gap-2 text-slate-700 font-semibold text-sm sm:text-base">
@@ -59,7 +59,7 @@ export default function HeroSection({ onBookVisitClick, onOpenVideoTour }) {
           </div>
 
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto font-sans">
-            Arrjava Farms offers premium residential conversion open plots and managed farmland. Designed for families who want the freedom to create a peaceful weekend country retreat surrounded by fragrant mango trees, fresh air, club amenities, and rapid city connectivity.
+            Arrjava Farms offers premium residential convertable open plots nestled within mature mango orchards. Designed for families who desire an idyllic green sanctuary surrounded by fragrant fruit trees, fresh country air, modern lifestyle amenities, and rapid highway connectivity.
           </p>
 
           {/* Action CTAs */}
@@ -69,7 +69,7 @@ export default function HeroSection({ onBookVisitClick, onOpenVideoTour }) {
               className="inline-flex items-center gap-2 bg-emerald-800 hover:bg-emerald-900 text-white font-bold text-sm sm:text-base px-7 py-4 rounded-full shadow-lg hover:shadow-xl transition-all active:scale-98 cursor-pointer"
             >
               <Calendar className="w-4 h-4 text-amber-300" />
-              <span>Schedule Free Farm Tour</span>
+              <span>Schedule Free Site Visit</span>
               <ArrowRight className="w-4 h-4" />
             </button>
 

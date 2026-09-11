@@ -26,7 +26,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-xs text-emerald-200/80 font-semibold tracking-wide">
-                  Premium Residential Conversion Open Plots & Managed Farmland
+                  A Natural Sanctuary of Mango Groves & Residential Convertable Plots
                 </p>
               </div>
             </div>
@@ -47,10 +47,10 @@ export default function Footer() {
               Navigation
             </h4>
             <ul className="space-y-2 text-xs text-stone-300">
-              <li><a href="#overview" className="hover:text-emerald-300 transition">The Farmland</a></li>
+              <li><a href="#overview" className="hover:text-emerald-300 transition">Overview</a></li>
               <li><a href="#about" className="hover:text-emerald-300 transition">Mango Orchards</a></li>
               <li><a href="#highlights" className="hover:text-emerald-300 transition">Highlights</a></li>
-              <li><a href="#plots" className="hover:text-emerald-300 transition">Farm Life & Plots</a></li>
+              <li><a href="#plots" className="hover:text-emerald-300 transition">Plot Sizes</a></li>
               <li><a href="#amenities" className="hover:text-emerald-300 transition">Amenities</a></li>
               <li><a href="#location" className="hover:text-emerald-300 transition">Connectivity</a></li>
               <li><a href="#gallery" className="hover:text-emerald-300 transition">Site Photos</a></li>

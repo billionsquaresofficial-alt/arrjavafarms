@@ -30,7 +30,7 @@ export default function Navbar({ onBookVisitClick }) {
     { label: 'Overview', href: '#overview' },
     { label: 'Orchards', href: '#about' },
     { label: 'Highlights', href: '#highlights' },
-    { label: 'Farm Life', href: '#plots' },
+    { label: 'Plot Sizes', href: '#plots' },
     { label: 'Amenities', href: '#amenities' },
     { label: 'Location', href: '#location' },
     { label: 'Photos', href: '#gallery' },

@@ -35,7 +35,7 @@ export default function SiteVisitSection() {
   };
 
   const whatsappMessage = encodeURIComponent(
-    `Hi Arrjava Farms Team, I would like to schedule a farm visit.\nName: ${formData.name || 'Interested Buyer'}\nPhone: ${formData.phone || 'Not provided'}\nPreferred Date: ${formData.date || 'Flexible'}\nPlot Size: ${formData.plotSize}`
+    `Hi Arrjava Farms Team, I would like to schedule a site visit.\nName: ${formData.name || 'Interested Buyer'}\nPhone: ${formData.phone || 'Not provided'}\nPreferred Date: ${formData.date || 'Flexible'}\nPlot Size: ${formData.plotSize}`
   );
 
   return (
@@ -48,7 +48,7 @@ export default function SiteVisitSection() {
             Experience Arrjava Farms
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-slate-900 mt-4 tracking-tight">
-            Schedule Your Free Farm Visit
+            Schedule Your Free Site Visit
           </h2>
           <p className="text-base text-slate-600 mt-3 leading-relaxed font-sans">
             Walking the land, smelling the fresh mango trees, and seeing the infrastructure firsthand is the best way to choose your dream plot. Complimentary cab assistance available upon request.
@@ -66,7 +66,7 @@ export default function SiteVisitSection() {
                   <CheckCircle className="w-9 h-9" />
                 </div>
                 <h3 className="text-2xl sm:text-3xl font-bold font-serif text-slate-900">
-                  Farm Visit Request Received!
+                  Site Visit Request Received!
                 </h3>
                 <p className="text-sm text-slate-600 max-w-md mx-auto">
                   Thank you, <span className="font-bold text-slate-900">{formData.name}</span>. Our senior project coordinator will call you at <span className="font-bold text-slate-900">{formData.phone}</span> to confirm your scheduled slot and provide turn-by-turn route assistance.
@@ -206,7 +206,7 @@ export default function SiteVisitSection() {
                   className="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-bold text-sm sm:text-base py-4 rounded-xl shadow-md hover:shadow-lg transition-all active:scale-99 flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <Send className="w-4 h-4 text-amber-300" />
-                  <span>Confirm Free Farm Visit</span>
+                  <span>Confirm Free Site Visit</span>
                 </button>
 
                 <p className="text-[11px] text-slate-500 text-center">
@@ -228,7 +228,7 @@ export default function SiteVisitSection() {
                 Speak With Project Advisors
               </h3>
               <p className="text-xs text-emerald-100/80 leading-relaxed">
-                Need immediate pricing, plot availability chart, or turn-by-turn route assistance? Our farm advisors are available every day from 9:00 AM to 7:00 PM.
+                Need immediate pricing, plot availability chart, or turn-by-turn route assistance? Our project advisors are available every day from 9:00 AM to 7:00 PM.
               </p>
 
               <div className="pt-2 flex flex-col gap-2.5">

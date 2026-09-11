@@ -18,7 +18,7 @@ export default function VideoTourSection() {
       title: "Aerial Drone Overview — Reel 1",
       badge: "On-Ground Drone",
       src: "/assets/videos/drone-reel-1.mp4",
-      desc: "High-angle drone footage capturing the expanse of the farmland, mature mango plantations, and road layout.",
+      desc: "High-angle drone footage capturing the expanse of the project, mature mango plantations, and road layout.",
     },
     {
       title: "Infrastructure & Road Network — Reel 2",
@@ -74,7 +74,7 @@ export default function VideoTourSection() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="text-xs uppercase tracking-widest font-extrabold text-[#6d351a] bg-[#f7efe5] px-4 py-1.5 rounded-full border border-[#debfa5]">
-            Virtual Farm Experience
+            Virtual Experience
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-[#16271e] mt-4 tracking-tight">
             Official 3D Walkthrough & Drone Tour

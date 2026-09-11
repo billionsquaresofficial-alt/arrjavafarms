@@ -4,8 +4,8 @@ import { Home, Trees, TrendingUp, Sparkles, CheckCircle2, Droplets, ShieldCheck 
 export default function AboutSection({ onBookVisitClick }) {
   const pillars = [
     {
-      title: "Complete Space Freedom",
-      desc: "Design your spacious weekend retreat, family country home, or agricultural asset exactly according to your vision.",
+      title: "Complete Architectural Freedom",
+      desc: "Design your spacious country home, weekend residence, or enduring green asset exactly according to your family's vision.",
       icon: Home,
     },
     {
@@ -20,7 +20,7 @@ export default function AboutSection({ onBookVisitClick }) {
     },
     {
       title: "Community Lifestyle Amenities",
-      desc: "Enjoy the consecrated Lord Ganesha temple, swimming pool, farm clubhouse, and guest stay cottages.",
+      desc: "Enjoy the consecrated Lord Ganesha temple, swimming pool, community clubhouse, and guest stay cottages.",
       icon: Sparkles,
     },
   ];
@@ -32,13 +32,13 @@ export default function AboutSection({ onBookVisitClick }) {
         {/* Section Header */}
         <div className="max-w-3xl mb-16">
           <span className="text-xs uppercase tracking-widest font-extrabold text-[#6d351a] bg-[#f5ede2] px-3.5 py-1 rounded-full border border-[#debfa5]">
-            The Farmland Philosophy
+            Natural Orchard Living
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-[#16271e] mt-4 tracking-tight">
-            Create Your Farmland Sanctuary <span className="text-[#1a5135] italic">Your Way</span>
+            Create Your Private Nature Sanctuary <span className="text-[#1a5135] italic">Your Way</span>
           </h2>
           <p className="text-base sm:text-lg text-stone-600 mt-4 leading-relaxed font-sans">
-            Arrjava Farms gives you the freedom to own a piece of peaceful nature without sacrificing urban convenience. Whether you want a sunny weekend country retreat, a multi-generational family retreat, or a strategic land holding, these residential conversion open plots offer complete flexibility.
+            Arrjava Farms gives you the freedom to own a piece of peaceful nature without sacrificing urban convenience. Whether you want a sunny weekend country retreat, a multi-generational family residence, or a strategic land holding, these residential convertable open plots offer complete flexibility.
           </p>
         </div>
 
